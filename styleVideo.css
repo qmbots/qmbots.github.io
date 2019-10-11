@@ -297,7 +297,7 @@ header {
 }
 
 .video-background-holder video {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
