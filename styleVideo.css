@@ -289,8 +289,8 @@ header {
 
 header video {
   position: absolute;
-/*  top: 50%;
-  left: 50%;*/
+  top: 200px;
+  left: 0px;
   min-width: 100%;
   min-height: 100%;
   width: 100%;
