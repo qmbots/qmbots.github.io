@@ -281,14 +281,14 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 75vh;
-  min-height: 25rem;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   overflow: hidden;
 }
 
 header video {
-  position: absolute;
+  position: relative;
   top: 200px;
   left: 0px;
   min-width: 100%;
