@@ -274,6 +274,18 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*header {
   position: relative;
   text-align: center;
   color: #fff;
@@ -285,9 +297,9 @@ header {
   padding: 0px;
   width: 100%;
   overflow: hidden;
-}
+}*/
 
-header video {
+/*header video {
   position: relative;
   top: 200px;
   left: 0px;
@@ -305,7 +317,8 @@ header video {
 header .container {
   position: relative;
   z-index: 2;
-}
+  }*/
+
 
 header .overlay {
   position: absolute;
