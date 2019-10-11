@@ -72,19 +72,22 @@
 
         <!-- Header -->
         <header>
-            <div class="container">
-                <div class="overlay"></div>
-                    <video autoplay muted loop id="myvideo">
-                        <source src="video/robotwars.mp4" type="video/mp4">
-                    </video>
-                    <div class="container h-100">
-                        <div class="d-flex h-100 text-center align-items-center">
-                        <div class="w-100 text-white">
-                            <h1 class="display-3">Robot Wars</h1>
-                            <p class="lead mb-0">Continue to learn the rules and get the parts that you need.</p>
-                        </div>
-                    </div>
+            <div class="video-background-holder">
+              <div class="video-background-overlay"></div>
+              <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="video/robotwars.mp4" type="video/mp4">
+                </video>
+              <div class="video-background-content container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                  <div class="w-100 text-white">
+                    <h1 class="display-4">Bootstrap video background</h1>
+                    <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+                    <p class="lead">Snippet by <a href="https://bootstrapious.com/snippets" class="text-white">
+                                <u>Bootstrapious</u></a>
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
         </header>
 
