@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+/*header {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -300,7 +300,7 @@ header video {
 header .container {
   position: relative;
   z-index: 2;
- }
+ }*/
 
 /*header .overlay {
   position: absolute;
