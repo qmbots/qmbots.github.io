@@ -329,10 +329,6 @@ header {
   z-index: 1;
 }
 
-#info h2, h3, h4, ul, li, p{
-	text-align: center;
-}
-
 /*header {
   position: relative;
   background-color: black;
