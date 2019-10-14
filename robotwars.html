@@ -76,6 +76,8 @@
                     <div class="video-background-overlay">
                     	<div class="container">
                         	<div class="intro-text">
+                        		<br>
+                        		<br>
                             	<div class="intro-lead-in">Welcome to robot wars!</div>
                             	<div class="intro-heading">Scroll down </br> to learn more.</div>
                         	</div>
@@ -118,10 +120,36 @@
 			   		<br>
 
 		        	<h3>Antweight robot wars rules:</h3>
-		        	<ul style="list-style: none; list-style-type: none; padding: 0;">
-		        		<li>- 150g weight;</li>
-		        		<li>- Must fit within a 10 cm cube;</li>
-		        		<li>- <a href="http://www.robotwars101.org/ants/rules.htm" style="color: rgb(212, 158, 23)">Rules</a></li>
+		        	<ul style="padding: 0;">
+		        		<li><a href="http://www.robotwars101.org/ants/rules.htm" style="color: rgb(212, 158, 23)">Official Rules</a></li>
+		        		<ol>
+		        			<li><b>Dimensions:</b></li>
+			        		<li>150g weight;</li>
+			        		<li>Must fit within a 10 cm cube;</li>
+			        	</ol>
+			        	<ol>
+			        		<li><b>Weapons:</b></li>
+			        		<li>The following weapon types are not permitted:</li>
+			        		<ul>
+			        			<li>Fluid based weapons (treacle guns, etc.)</li>
+			        			<li>Glue or sticky pad weapons</li>
+			        			<li>String or entanglement weapons</li>
+			        			<li>Flame based weapons</li>
+			        			<li>The use of electricity as a weapon</li>
+			        			<li>Explosive weapons</li>
+			        			<li>Rotating weapons that may shatter (as opposed to breaking off)</li>
+			        			<li>Magnetic/inductive systems</li>
+			        		</ul>
+			        		<li>Permitted weapons:</li>
+			        		<ul>
+			        			<li>Sharp weapons</li>
+			        			<li>Rotating weapons that do not shatter</li>
+			        			<li>Wedges</li>
+			        			<li>Rollers</li>
+			        			<li>Any other weapon that does not fit in the not permitted category</li>
+			        		</ul>
+			        	</ol>
+		        		<li></li>
 		        	</ul>
 
 		        	<br>
@@ -307,19 +335,15 @@
 					<div class="container-fluid information-card" style="box-shadow: 0px 3px 5px  rgba(0,0,0,0.6);">
 		        		<div class="row">
 		        			<div class="col-sm-3">
-		        				<img style="width: 100%;" src="img/parts/2SLiPo180mAh.jpg" alt="2SLiPo180mAh">
+		        				<img style="width: 100%;" src="img/parts/1SLiPo260mAh.jpg" alt="1SLiPo260mAh">
 		        			</div>
 		        			<div class="col-sm-9">
-							    <h5>1x 2S LiPo battery (7.4 V)</h5>
-							    <p>Whereas normal servos are position controlled, continuous servos are speed controlled. They are slower than DC motors but their advantage is that they can be directly plugged into the RC receiver. The number before the S represents the number of 3.7 voltage cells in the battery. So 2S is 7.4 volts.</p>
+							    <h5>1x 1S LiPo battery (3.7 V, 260mAh)</h5>
+							    <p>A very compact battery that can provide a lot of current to the system. Ideal for supplying motors. The number before the S represents the number of 3.7 voltage cells in the battery. 2S would be 2 x 3.7 = 7.4 volts. The capacity is 260mAh, it means that if a steady current of 260 milliAmperes were drawn from a fully charged battery then the battery would last one hour. Sometimes the battery will have to be changed before the predicted time. This is because as the battery discharges its voltage will drop and this lower voltage may or may not allow the circuit to work properly, digital circuits are especially susceptible to this, since they require, for example the Arduino, 5 volts or above to work.</p>
 							    <div class="row">
 							    	<div class="col-sm-5">
-									    <a href="https://www.ebay.co.uk/i/163763022464?chn=ps&norover=1&mkevt=1&mkrid=710-134428-41853-0&mkcid=2&itemid=163763022464&targetid=594652107760&device=c&mktype=pla&googleloc=&poi=&campaignid=6619151966&mkgroupid=84510980808&rlsatarget=aud-629407025025:pla-594652107760&abcId=1140496&merchantid=114960854&gclid=Cj0KCQjw84XtBRDWARIsAAU1aM1uLHTZ7yop3XlsQXNfO3SUHt-prfZHRSe7XWEaoQNGrhXKJrL9kxoaAj-ZEALw_wcB" 
+									    <a href="https://www.ebay.co.uk/itm/1S-3-7v-260mAh-35-70C-Turnigy-Nano-Tech-Lipo-Battery-Walkera-Ladybird-WKLIP230/192933901862?hash=item2cebc1b626:m:mn11n6mCdfx6JMFaSC6MpCQ" 
 									    style="color: rgb(212, 158, 23)" class="card-link">Buy</a>
-								    </div>
-								    <div class="col-sm-5">
-								    	<a href="https://hobbyking.com/en_us/turnigy-nano-tech-180mah-2s-25c-lipoly-pack-compatible-losb0863-5pcs.html?countrycode=GB&gclid=Cj0KCQjw84XtBRDWARIsAAU1aM1dwF8vhWNlFINs9x7tke6YQkRpGPajQiMtHnAyMYMUlA85rsEg6SgaAvGCEALw_wcB&gclsrc=aw.ds" 
-								    	style="color: rgb(212, 158, 23);" class="card-link">Buy (5 Pcs)</a>
 								    </div>
 							    </div>
 		        			</div>
@@ -359,7 +383,7 @@
 		        			</div>
 		        			<div class="col-sm-9">
 							    <h5>2x N20 Micro Metal Gear Motor</h5>
-							    <p>They are to most commonly used motors, depending on their internal gear ratio they come in 400, 500, 600 rpm. The 400 rpm is slower but more powerful. Requires soldering of the motor leads.</p>
+							    <p>They are to most commonly used motors, depending on their internal gear ratio they come in 400, 500, 600 rpm (top speed). The 400 rpm is slower but more powerful. Requires soldering of the motor leads. When selecting a battery for a system with a DC motor then remember that: the higher the voltage applied to a motor, the higher the speed. While the higher the force required by the motor to move, the higher the current it's going to draw.</p>
 							    <a href="https://www.ebay.co.uk/itm/N20-DC6V-12V-Gear-Motor-Micro-Geared-Box-Electric-Motor-40-100-600-1000-1200-RPM/162884897510?hash=item25ecb24ae6:m:mpxG6lY8pxte3nd0Z5sNJBw" 
 							    style="color: rgb(212, 158, 23)" class="card-link">Buy</a>
 		        			</div>
@@ -403,19 +427,15 @@
 					<div class="container-fluid information-card" style="box-shadow: 0px 3px 5px  rgba(0,0,0,0.6);">
 		        		<div class="row">
 		        			<div class="col-sm-3">
-		        				<img style="width: 100%;" src="img/parts/2SLiPo180mAh.jpg" alt="2SLiPo180mAh">
+		        				<img style="width: 100%;" src="img/parts/1SLiPo260mAh.jpg" alt="1SLiPo260mAh">
 		        			</div>
 		        			<div class="col-sm-9">
-							    <h5>1x 2S LiPo battery (7.4 V)</h5>
-							    <p>Whereas normal servos are position controlled, continuous servos are speed controlled. They are slower than DC motors but their advantage is that they can be directly plugged into the RC receiver. The number before the S represents the number of 3.7 voltage cells in the battery. So 2S is 7.4 volts.</p>
+							    <h5>1x 1S LiPo battery (3.7 V, 260mAh)</h5>
+							    <p>A very compact battery that can provide a lot of current to the system. Ideal for supplying motors. The number before the S represents the number of 3.7 voltage cells in the battery. 2S would be 2 x 3.7 = 7.4 volts. The capacity is 260mAh, it means that if a steady current of 260 milliAmperes were drawn from a fully charged battery then the battery would last one hour. Sometimes the battery will have to be changed before the predicted time. This is because as the battery discharges its voltage will drop and this lower voltage may or may not allow the circuit to work properly, digital circuits are especially susceptible to this, since they require, for example the Arduino, 5 volts or above to work.</p>
 							    <div class="row">
 							    	<div class="col-sm-5">
-									    <a href="https://www.ebay.co.uk/i/163763022464?chn=ps&norover=1&mkevt=1&mkrid=710-134428-41853-0&mkcid=2&itemid=163763022464&targetid=594652107760&device=c&mktype=pla&googleloc=&poi=&campaignid=6619151966&mkgroupid=84510980808&rlsatarget=aud-629407025025:pla-594652107760&abcId=1140496&merchantid=114960854&gclid=Cj0KCQjw84XtBRDWARIsAAU1aM1uLHTZ7yop3XlsQXNfO3SUHt-prfZHRSe7XWEaoQNGrhXKJrL9kxoaAj-ZEALw_wcB" 
+									    <a href="https://www.ebay.co.uk/itm/1S-3-7v-260mAh-35-70C-Turnigy-Nano-Tech-Lipo-Battery-Walkera-Ladybird-WKLIP230/192933901862?hash=item2cebc1b626:m:mn11n6mCdfx6JMFaSC6MpCQ" 
 									    style="color: rgb(212, 158, 23)" class="card-link">Buy</a>
-								    </div>
-								    <div class="col-sm-5">
-								    	<a href="https://hobbyking.com/en_us/turnigy-nano-tech-180mah-2s-25c-lipoly-pack-compatible-losb0863-5pcs.html?countrycode=GB&gclid=Cj0KCQjw84XtBRDWARIsAAU1aM1dwF8vhWNlFINs9x7tke6YQkRpGPajQiMtHnAyMYMUlA85rsEg6SgaAvGCEALw_wcB&gclsrc=aw.ds" 
-								    	style="color: rgb(212, 158, 23);" class="card-link">Buy (5 Pcs)</a>
 								    </div>
 							    </div>
 		        			</div>
