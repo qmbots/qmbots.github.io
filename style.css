@@ -13,7 +13,7 @@
  */
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
 }
@@ -186,6 +186,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Orbitron", Arial;
     color: #1089FF;
+    font-size:2em;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -210,12 +211,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #EEEEEE;
+    background-color: #3FC5F0;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Orbitron", Arial;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
