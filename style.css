@@ -14,7 +14,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Nunito", Arial;
     color: #333;
 }
 
@@ -44,7 +44,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #1089FF;
 }
 
 a:hover,
@@ -306,7 +306,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: "Orbitron", Arial;
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: 700;
     line-height: 50px;
     color: #1089FF;
@@ -328,9 +328,11 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
+        margin-left: 25%;
+        margin-right: 25%;
         text-transform: uppercase;
         font-family: "Orbitron", Arial;
-        font-size: 75px;
+        font-size: 4em;
         font-weight: 700;
         line-height: 75px;
         color:#1089FF;
