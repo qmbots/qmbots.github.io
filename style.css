@@ -13,7 +13,7 @@
  */
 
 body {
-    overflow-x: hidden; 
+    overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #333;
 }
@@ -130,12 +130,14 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #fed136;
     border-radius: 3px;
+    border-width:0.2em;
     text-transform: uppercase;
     font-family: "Orbitron", Arial;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
     background-color: #1089FF;
+    transition: 0.3s;
 }
 
 .btn-xl:hover,
@@ -145,7 +147,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #fed136;
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF0000;
 }
 
 .btn-xl:active,
@@ -193,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #3FC5F0;
+    color: #FF0000;
 }
 
 .navbar-default .navbar-collapse {
@@ -307,6 +309,7 @@ header .intro-text .intro-heading {
     font-size: 1.8em;
     font-weight: 700;
     line-height: 50px;
+    color: #1089FF;
 }
 
 @media(min-width:768px) {
@@ -326,10 +329,11 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Orbitron", Arial;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+        color:#1089FF;
     }
 }
 
@@ -347,9 +351,9 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-family: "Nunito", Arial;
 }
 
 @media(min-width:768px) {
@@ -440,6 +444,11 @@ section h3.section-subheading {
         margin: 0 0 30px;
     }
 }
+
+.about-bullet{
+  text-align: left;
+}
+
 
 .timeline {
     position: relative;
@@ -573,8 +582,8 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
+        width: 12em;
+        height: 12em;
         margin-left: -50px;
     }
 
