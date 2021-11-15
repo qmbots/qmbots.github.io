@@ -312,6 +312,7 @@ header .intro-text .intro-heading {
     color: #1089FF;
     background-color:#222;
     opacity:0.85;
+    border-radius:10%;
 }
 
 @media(min-width:768px) {
