@@ -311,7 +311,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
     color: #1089FF;
     background-color:#222;
-    opacity:0.9;
+    opacity:0.85;
 }
 
 @media(min-width:768px) {
