@@ -683,6 +683,7 @@ aside.clients img {
 section#contact {
     background-color: #222;
     background-image: url('/img/el.png');
+    opacity: 0.8;
     background-position: center;
     background-repeat: no-repeat;
 }
