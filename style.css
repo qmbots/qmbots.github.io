@@ -692,6 +692,11 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+.contact-background{
+background-color: #222;
+    opacity: 0.85;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
