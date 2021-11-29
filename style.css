@@ -676,6 +676,10 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.img-people{
+    max-width:70%;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
